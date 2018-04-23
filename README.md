@@ -8,8 +8,8 @@ Before you begin, know that React's props object is already configured to apply 
 
 ```
 ReactDOM.render(
-React.createElement('h1', { style: { backgroundColor: 'pink' } }, 'This text should have a pink background!'),
-document.getElementById('app')
+    React.createElement('h1', { style: { backgroundColor: 'pink' } }, 'This text should have a pink background!'),
+    document.getElementById('app')
 );
 ```
 
